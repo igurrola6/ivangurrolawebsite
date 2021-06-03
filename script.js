@@ -3,6 +3,7 @@ $(document).ready(function() { // Makes sure that your function is called once a
     $('.hide').click(clickedHide);
 	$('.show').click(clickedShow);
   })
+  $(document).on('click', '#a', function() { alert("hello"); });
   
    function clickedHide() {
       $( "#a" ).hide();
