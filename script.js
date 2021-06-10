@@ -145,7 +145,7 @@ $(document).ready(function() { // Makes sure that your function is called once a
    //this is for switching css files between dark mode and light mode
    function clickedInverted() {
 	  if (inverted == true){
-        $('#desktopstyle').attr('href','../ivangurrolawebsite/css/lightstyle.css');
+        $('#desktopstyle').attr('href','css/lightstyle.css');
 		$('#lightdark').text('Dark Mode');
 		$("div").removeClass("inverted");
 		$("h1").removeClass("inverted");
@@ -154,7 +154,7 @@ $(document).ready(function() { // Makes sure that your function is called once a
 		inverted = false;
 	  }
 	  else{
-		$('#desktopstyle').attr('href','../ivangurrolawebsite/css/styles.css');
+		$('#desktopstyle').attr('href','css/styles.css');
 		$('#lightdark').text('Light Mode');
 		$("div").addClass("inverted");
 		$("h1").addClass("inverted");
