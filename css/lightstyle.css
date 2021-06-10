@@ -1,10 +1,12 @@
 html, body, class{
-	background: #000000; 
-	color: white;
+	background: white; 
+	color: black;
 	font: bold 16px Georgia, serif;
 	margin: 0;
 }
-
+body, div{
+	color: black;
+}
 .masthead h1.ui.header{
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -17,7 +19,7 @@ html, body, class{
 
 .ui.inverted.segment, .ui.primary.inverted.segment {
     color: black;
-    background: black;
+    background: white;
     color: rgba(255,255,255,.9);
 }
 

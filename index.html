@@ -5,8 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
 	<script src="./semantic/dist/semantic.min.js"></script>
-	<script src="script.js"></script>
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link id="desktopstyle" href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body id="top">
     <div class="ui inverted vertical masthead center aligned segment">
@@ -17,15 +16,17 @@
 			  </a>
 			  <a class="item" href="index.html#first" title="Jump to first section">First</a>
 			  <a class="item" href="index.html#second" title="Jump to second section">Second</a>
-			  <a class="item" href="index.html#second" title="Jump to bottom">Third</a>
+			  <a class="item" href="index.html#third" title="Jump to bottom">Third</a>
 		   <div class="right item">
-		      <a class="invert ui inverted button">Light Mode</a>
+		      <a id="desktopmobile" class="invert ui inverted button">Desktop</a>
+		      <a id="lightdark" class="invert ui inverted button">Light Mode</a>
 		   </div>
 	  </div>
 	  <header id="about">
 	    <div class="ui text container">
-          <h1 id="a" class="ui inverted header">Hello and welcome to <a href="https://ivangurrola.com/" title="Link to this website">ivangurrola.com</a></h1>
-          <div class="transition ui huge primary button">Show/Hide</div>
+          <h1 id="a" class="ui inverted header"><p>Hello and welcome to <a href="https://ivangurrola.com/" title="Link to this website">ivangurrola.com</a></p></h1>
+          <h1><p>This site contains financial advice that shouldn’t be taken seriously, unless you don’t like money.</p></h1>
+		  <div class="transition inverted ui huge primary button">Show/Hide</div>
         </div>	 
 	  </header>
 	  <h2 id="first" class="ui inverted header left aligned">First, something important</h2>
@@ -64,7 +65,44 @@
 			<!-- TradingView Widget END -->
 		  </div>
         </div>
-	<h2 id="second" class="ui inverted header left aligned">Sticky Example</h2>
+	<h2 id="second" class="ui inverted header left aligned">Second, Magic: The Gathering<sup>TM</sup> Cards</h2>
+	 <div class="ui text container">
+		<p>Magic: The Gathering is a collectible trading card game that started in 1993 and has grown to become one of the most popular trading card games today. Due to its collectible nature it is a great investment, but with so many cards in existence and so many to be printed in the future how do you know which are worth investing? The simple answer is you don’t, but luckily I’ve provided three different groups of cards to invest in. You can even choose one random card from each group to invest in.</p>
+        <p>The first group is any card that exist, if you are feeling lucky you can choose one random card to buy and hope it goes up in value. The second group is commander cards, sometimes a legendary creature card goes up because it becomes popular in the format of the same name (commander). You must know how to play the game if you want to know which commander cards are good and will become popular. The third is the reserved list, this is a group of cards that will never be printed ever again. Naturally this means that most of these cards will go up in value eventually. This makes this group the best investment due to the fact that there is a finite amount of them. </p>	 
+	 </div>
+	    <div class="ui three column relaxed grid">
+		  <div class="column">
+		      <img id="parseid" class="ui fluid image" src="../ivangurrolawebsite/images/doge.png"><!--this is a placeholder before image loads, replace with a loading image-->
+		      <div class="ui bulleted list">
+				 <div class="item"><u>Name:</u> <strong class="cardname"></strong></div>   
+				 <div class="item"><u>Set:</u> <strong class="cardset"></strong></div>    
+				 <div class="item"><u>Market Price:</u> <strong class="cardprice"></strong></div>
+				 <div class="item"><u>TCGplayer:</u> <strong><a class="tcgplayer" href="https://www.tcgplayer.com/" title="Link to TCGplayer card page" target="_blank">Link</a></strong></div>
+			     <div class="random inverted ui huge primary button">Random Card</div>
+			</div>
+		  </div>
+		  <div class="column">
+		      <img id="parseid2" class="ui fluid image" src="../ivangurrolawebsite/images/doge.png">
+			  <div class="ui bulleted list">
+				 <div class="item"><u>Name:</u> <strong class="cardname2"></strong></div>   
+				 <div class="item"><u>Set:</u> <strong class="cardset2"></strong></div>    
+				 <div class="item"><u>Market Price:</u> <strong class="cardprice2"></strong></div>
+				 <div class="item"><u>TCGplayer:</u> <strong><a class="tcgplayer2" href="https://www.tcgplayer.com/" title="Link to TCGplayer card page" target="_blank">Link</a></strong></div>
+			  <div class="randomCommander inverted ui huge primary button">Random Commander</div>
+			</div>
+		  </div>
+		  <div class="column">
+		  <img id="parseid3" class="ui fluid image" src="../ivangurrolawebsite/images/doge.png">
+				<div class="ui bulleted list">
+				 <div class="item"><u>Name:</u> <strong class="cardname3"></strong></div>   
+				 <div class="item"><u>Set:</u> <strong class="cardset3"></strong></div>    
+				 <div class="item"><u>Market Price:</u> <strong class="cardprice3"></strong></div>
+				 <div class="item"><u>TCGplayer:</u> <strong><a class="tcgplayer3" href="https://www.tcgplayer.com/" title="Link to TCGplayer card page" target="_blank">Link</a></strong></div>
+				<div class="randomReserved inverted ui huge primary button">Random Reserved</div>
+			  </div>
+        </div>
+	   </div>
+	<h2 id="third" class="ui inverted header left aligned">Sticky Example</h2>
 	    <div class="ui three column relaxed grid">
 		  <div class="column">
 		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -114,7 +152,7 @@
         </div>
       </div>
       <div class="ui inverted section divider"></div>
-      <img src="assets/images/logo.png" class="ui centered mini image">
+      <div class="ui small"><h6>The literal and graphical information presented on this site about Magic: The Gathering, including card images, the mana symbols, and Oracle text, is copyright Wizards of the Coast, LLC, a subsidiary of Hasbro, Inc. All card information is provided by Scryfall. Scryfall is not produced by, endorsed by, supported by, or affiliated with Wizards of the Coast.</h6></div>
       <div class="ui horizontal inverted small divided link list">
         <a class="item" href="#">Site Map</a>
         <a class="item" href="#">Contact Us</a>
@@ -125,4 +163,6 @@
   </footer>
   
  </div>
+ 
+ <script src="script.js"></script>
 </html>
