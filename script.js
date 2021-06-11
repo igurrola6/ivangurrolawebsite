@@ -150,6 +150,7 @@ $(document).ready(function() { // Makes sure that your function is called once a
 		$("div").removeClass("inverted");
 		$("h1").removeClass("inverted");
 		$("h2").removeClass("inverted");
+		$("h4").removeClass("inverted");
 		$("a").removeClass("inverted");
 		inverted = false;
 	  }
@@ -159,6 +160,7 @@ $(document).ready(function() { // Makes sure that your function is called once a
 		$("div").addClass("inverted");
 		$("h1").addClass("inverted");
 		$("h2").addClass("inverted");
+		$("h4").addClass("inverted");
 		$("a").addClass("inverted");
 		inverted = true;
 	  }

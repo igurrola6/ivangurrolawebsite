@@ -4,6 +4,13 @@ html, body, class{
 	font: bold 16px Georgia, serif;
 	margin: 0;
 }
+h4{
+	margin: 2em;
+}
+.column h2{
+	 border-bottom: solid;
+	 display: inline-block;
+}
 body, div{
 	color: black;
 }

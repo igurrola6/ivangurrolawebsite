@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css">
-	<script src="./semantic/dist/semantic.min.js"></script>
-	<link id="desktopstyle" href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!--jQuery CDN-->
+	<link rel="stylesheet" type="text/css" href="./semantic/dist/semantic.min.css"><!--fomantic UI CSS-->
+	<script src="./semantic/dist/semantic.min.js"></script><!--fomantic UI JavaScript-->
+	<link id="desktopstyle" href="css/styles.css" rel="stylesheet" type="text/css"><!--my css-->
   </head>
   <body id="top">
     <div class="ui inverted vertical masthead center aligned segment">
@@ -66,9 +66,11 @@
 		  </div>
         </div>
 	<h2 id="second" class="ui inverted header left aligned">Second, Magic: The Gathering<sup>TM</sup> Cards</h2>
-	 <div class="ui text container">
-		<p>Magic: The Gathering is a collectible trading card game that started in 1993 and has grown to become one of the most popular trading card games today. Due to its collectible nature it is a great investment, but with so many cards in existence and so many to be printed in the future how do you know which are worth investing? The simple answer is you don’t, but luckily I’ve provided three different groups of cards to invest in. You can even choose one random card from each group to invest in.</p>
+	 <div class="ui one column relaxed grid">
+	   <div class="column">
+		<p>Magic: The Gathering is a collectible trading card game that was created in 1993 by <i class="large wizards of the coast icon"></i> Wizards of the Coast and has grown to become one of the most popular trading card games today. Due to its collectible nature it is a great investment, but with so many cards in existence and so many to be printed in the future how do you know which are worth investing? The simple answer is you don’t, but luckily I’ve provided three different groups of cards to invest in. You can even choose one random card from each group to invest in.</p>
         <p>The first group is any card that exist, if you are feeling lucky you can choose one random card to buy and hope it goes up in value. The second group is commander cards, sometimes a legendary creature card goes up because it becomes popular in the format of the same name (commander). You must know how to play the game if you want to know which commander cards are good and will become popular. The third is the reserved list, this is a group of cards that will never be printed ever again. Naturally this means that most of these cards will go up in value eventually. This makes this group the best investment due to the fact that there is a finite amount of them. </p>	 
+	   </div>
 	 </div>
 	    <div class="ui three column relaxed grid">
 		  <div class="column">
@@ -102,53 +104,70 @@
 			  </div>
         </div>
 	   </div>
-	<h2 id="third" class="ui inverted header left aligned">Sticky Example</h2>
-	    <div class="ui three column relaxed grid">
+	<h2 id="third" class="ui inverted header left aligned">Third, Stocks</h2>
+	    <div class="ui two column relaxed grid">
 		  <div class="column">
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		    <!-- TradingView Widget BEGIN -->
+				<div class="tradingview-widget-container">
+				  <div class="tradingview-widget-container__widget"></div>
+				  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/" rel="noopener" target="_blank"><span class="blue-text">Stock Market Today</span></a> by TradingView</div>
+				  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+				  {
+				  "colorTheme": "dark",
+				  "dateRange": "1D",
+				  "exchange": "US",
+				  "showChart": true,
+				  "locale": "en",
+				  "largeChartUrl": "",
+				  "isTransparent": false,
+				  "showSymbolLogo": true,
+				  "width": "500",
+				  "height": "600",
+				  "plotLineColorGrowing": "rgba(106, 168, 79, 1)",
+				  "plotLineColorFalling": "rgba(224, 102, 102, 1)",
+				  "gridLineColor": "rgba(42, 46, 57, 1)",
+				  "scaleFontColor": "rgba(120, 123, 134, 1)",
+				  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+				  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+				  "symbolActiveColor": "rgba(33, 150, 243, 0.12)"
+				}
+				  </script>
+				</div>
+		    <!-- TradingView Widget END -->
 		  </div>
 		  <div class="column">
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		  </div>
-		  <div class="column">
-		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>Stocks or Stonks</h2>
+		    <p>Stocks are one of the most popular investments that exist. The deal is simple, buy stocks when their price is low and then sell them when their price goes up to make a profit (don’t forget capital gains tax). Of course it gets more complicated than that, there’s options like puts and calls, but for simplicity we’ll stick with buy low sell high.</p>
+		    <p>The chart on the left has the top 5 stocks with the biggest gains and losses. If you buy one of these stocks at the right time then you might be able to make some money. For example, if a stock falls a lot then you can buy it and hope it goes back up. You can also buy a stock that makes big gains and hope it goes up even more. Of course any stock can always go to zero so remember to not risk your life savings.</p>
+			<p>DISCLAIMER: THIS IS NOT FINANCIAL ADVICE</p>
 		  </div>
     </div>
    </div>
   </body>
   <footer id="bottom" role="social media links">
 	<div class="ui center aligned container">
+	 <h4>For more financial advice that you shouldn't take seriously here are some links for each type of investment:</h4>
       <div class="ui stackable inverted divided grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">Group 1</h4>
+        <div class="five wide column">
+          <h4 class="ui inverted header">Cryptocurrencies</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Link One</a>
-            <a href="#" class="item">Link Two</a>
-            <a href="#" class="item">Link Three</a>
-            <a href="#" class="item">Link Four</a>
+            <a href="https://www.reddit.com/r/CryptoCurrency/" title="Link to the cryptocurrency subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/CryptoCurrency</a>
+            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Link to Elon Musk twitter" target="_blank" class="item"><i class="twitter icon"></i> Elon Musk</a>
           </div>
         </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Group 2</h4>
+        <div class="six wide column">
+          <h4 class="ui inverted header">Cards</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Link One</a>
-            <a href="#" class="item">Link Two</a>
-            <a href="#" class="item">Link Three</a>
-            <a href="#" class="item">Link Four</a>
+            <a href="https://www.reddit.com/r/mtgfinance/" title="Link to the mtg finance subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/mtgfinance</a>
+            <a href="https://www.youtube.com/channel/UCTp-iVOtTrKau0skmfZlo5Q/featured" title="Link to Alpha Investments YouTube channel" target="_blank" class="item"><i class="youtube icon"></i> Alpha Investments</a>
           </div>
         </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Group 3</h4>
+        <div class="five wide column">
+          <h4 class="ui inverted header">Stocks</h4>
           <div class="ui inverted link list">
-            <a href="#" class="item">Link One</a>
-            <a href="#" class="item">Link Two</a>
-            <a href="#" class="item">Link Three</a>
-            <a href="#" class="item">Link Four</a>
+            <a href="https://www.reddit.com/r/wallstreetbets/" title="Link to the wall street bets subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/wallstreetbets</a>
+			<a href="https://www.reddit.com/r/pennystocks/" title="Link to the penny stocks subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/pennystocks</a>
           </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>
       <div class="ui inverted section divider"></div>
