@@ -169,10 +169,18 @@ $(document).ready(function() { // Makes sure that your function is called once a
 	function clickedDesktop() {
 		if (mobile == true){
 		  $('#desktopmobile').text('Mobile');
+		  //$("#mobile").removeClass("column");
+		  $('.mobile').removeClass("column");
+		  $('#doge').attr('id','');
+		  $("#mobile").addClass("row");
+		  $('#desktopstyle').attr('href','css/mobilestyle.css');
+		  $("div").removeClass("inverted");
 		  mobile = false;
 		}
 		else{
 		  $('#desktopmobile').text('Desktop');	
+		  $('#desktopstyle').attr('href','css/styles.css');
+		  $("div").addClass("inverted");
 		  mobile = true;
 		}
 	}

@@ -11,9 +11,6 @@
     <div class="ui inverted vertical masthead center aligned segment">
 	  <div class="ui container">
 		  <div class="ui large secondary inverted pointing menu">
-			  <a class="toc item">
-			  	 <i class="sidebar icon"></i>
-			  </a>
 			  <a class="item" href="index.html#first" title="Jump to first section">First</a>
 			  <a class="item" href="index.html#second" title="Jump to second section">Second</a>
 			  <a class="item" href="index.html#third" title="Jump to bottom">Third</a>
@@ -30,14 +27,15 @@
         </div>	 
 	  </header>
 	  <h2 id="first" class="ui inverted header left aligned">First, something important</h2>
-	    <div id="doge" class="ui two column relaxed grid">
-		  <div class="column">
+	  <div id="doge">
+	    <div class="ui two column relaxed grid mobile">
+		  <div class="column mobile">
 		    <p>Dogecoin will soon usher in a radical new change in the system of currencies by creating a brand new meme economy. This will allow it to become the dominant global currency, so invest now before it’s too late.</p>
 			<blockquote >
 				<p><i>"I find that often times the most ironic or entertaining outcome is the most likely. And to me the most entertaining outcome would be Dogecoin becoming the global new earth currency."</i><br>-Elon Musk</p>
 			</blockquote>
 		 </div>
-	      <div id="trading" class="column">
+	      <div id="trading" class="column mobile">
 		    <!-- TradingView Widget BEGIN -->
 			  <div class="tradingview-widget-container">
 			  <div id="tradingview_19354"></div>
@@ -65,15 +63,16 @@
 			<!-- TradingView Widget END -->
 		  </div>
         </div>
+		</div>
 	<h2 id="second" class="ui inverted header left aligned">Second, Magic: The Gathering<sup>TM</sup> Cards</h2>
-	 <div class="ui one column relaxed grid">
-	   <div class="column">
+	 <div class="ui one column relaxed grid mobile">
+	   <div class="column mobile">
 		<p>Magic: The Gathering is a collectible trading card game that was created in 1993 by <i class="large wizards of the coast icon"></i> Wizards of the Coast and has grown to become one of the most popular trading card games today. Due to its collectible nature it is a great investment, but with so many cards in existence and so many to be printed in the future how do you know which are worth investing? The simple answer is you don’t, but luckily I’ve provided three different groups of cards to invest in. You can even choose one random card from each group to invest in.</p>
         <p>The first group is any card that exist, if you are feeling lucky you can choose one random card to buy and hope it goes up in value. The second group is commander cards, sometimes a legendary creature card goes up because it becomes popular in the format of the same name (commander). You must know how to play the game if you want to know which commander cards are good and will become popular. The third is the reserved list, this is a group of cards that will never be printed ever again. Naturally this means that most of these cards will go up in value eventually. This makes this group the best investment due to the fact that there is a finite amount of them. </p>	 
 	   </div>
 	 </div>
-	    <div class="ui three column relaxed grid">
-		  <div class="column">
+	    <div class="ui three column relaxed grid mobile">
+		  <div class="column mobile">
 		      <img id="parseid" class="ui fluid image" src="../ivangurrolawebsite/images/doge.png"><!--this is a placeholder before image loads, replace with a loading image-->
 		      <div class="ui bulleted list">
 				 <div class="item"><u>Name:</u> <strong class="cardname"></strong></div>   
@@ -83,7 +82,7 @@
 			     <div class="random inverted ui huge primary button">Random Card</div>
 			</div>
 		  </div>
-		  <div class="column">
+		  <div class="column mobile">
 		      <img id="parseid2" class="ui fluid image" src="../ivangurrolawebsite/images/doge.png">
 			  <div class="ui bulleted list">
 				 <div class="item"><u>Name:</u> <strong class="cardname2"></strong></div>   
@@ -93,7 +92,7 @@
 			  <div class="randomCommander inverted ui huge primary button">Random Commander</div>
 			</div>
 		  </div>
-		  <div class="column">
+		  <div class="column mobile">
 		  <img id="parseid3" class="ui fluid image" src="../ivangurrolawebsite/images/doge.png">
 				<div class="ui bulleted list">
 				 <div class="item"><u>Name:</u> <strong class="cardname3"></strong></div>   
@@ -105,8 +104,8 @@
         </div>
 	   </div>
 	<h2 id="third" class="ui inverted header left aligned">Third, Stocks</h2>
-	    <div class="ui two column relaxed grid">
-		  <div class="column">
+	    <div class="ui two column relaxed grid mobile">
+		  <div id="tradingapp" class="column mobile">
 		    <!-- TradingView Widget BEGIN -->
 				<div class="tradingview-widget-container">
 				  <div class="tradingview-widget-container__widget"></div>
@@ -135,7 +134,7 @@
 				</div>
 		    <!-- TradingView Widget END -->
 		  </div>
-		  <div class="column">
+		  <div class="column mobile">
 			<h2>Stocks or Stonks</h2>
 		    <p>Stocks are one of the most popular investments that exist. The deal is simple, buy stocks when their price is low and then sell them when their price goes up to make a profit (don’t forget capital gains tax). Of course it gets more complicated than that, there’s options like puts and calls, but for simplicity we’ll stick with buy low sell high.</p>
 		    <p>The chart on the left has the top 5 stocks with the biggest gains and losses. If you buy one of these stocks at the right time then you might be able to make some money. For example, if a stock falls a lot then you can buy it and hope it goes back up. You can also buy a stock that makes big gains and hope it goes up even more. Of course any stock can always go to zero so remember to not risk your life savings.</p>
@@ -148,21 +147,21 @@
 	<div class="ui center aligned container">
 	 <h4>For more financial advice that you shouldn't take seriously here are some links for each type of investment:</h4>
       <div class="ui stackable inverted divided grid">
-        <div class="five wide column">
+        <div class="five wide column mobile">
           <h4 class="ui inverted header">Cryptocurrencies</h4>
           <div class="ui inverted link list">
             <a href="https://www.reddit.com/r/CryptoCurrency/" title="Link to the cryptocurrency subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/CryptoCurrency</a>
             <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Link to Elon Musk twitter" target="_blank" class="item"><i class="twitter icon"></i> Elon Musk</a>
           </div>
         </div>
-        <div class="six wide column">
+        <div class="six wide column mobile">
           <h4 class="ui inverted header">Cards</h4>
           <div class="ui inverted link list">
             <a href="https://www.reddit.com/r/mtgfinance/" title="Link to the mtg finance subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/mtgfinance</a>
             <a href="https://www.youtube.com/channel/UCTp-iVOtTrKau0skmfZlo5Q/featured" title="Link to Alpha Investments YouTube channel" target="_blank" class="item"><i class="youtube icon"></i> Alpha Investments</a>
           </div>
         </div>
-        <div class="five wide column">
+        <div class="five wide column mobile">
           <h4 class="ui inverted header">Stocks</h4>
           <div class="ui inverted link list">
             <a href="https://www.reddit.com/r/wallstreetbets/" title="Link to the wall street bets subreddit" target="_blank" class="item"><i class="reddit icon"></i> r/wallstreetbets</a>

@@ -1,0 +1,51 @@
+html, div, body, class{
+	background: red; 
+	width: 100%;
+	color: black;
+	font: bold 36px Georgia, serif;
+	margin: 0;
+	
+}
+
+#tradingapp.mobile{
+	margin-left: 100px;
+}
+.ui.vertical.masthead.center.aligned.segment{
+	left: 300px;
+}
+h4{
+	margin: 2em;
+}
+.column h2{
+	 border-bottom: solid;
+	 display: inline-block;
+}
+body, div{
+	color: black;
+}
+.masthead h1.ui.header{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 3em;
+}
+
+.ui.text.container p{
+	margin-bottom: 2em;
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+    color: black;
+    background: white;
+    color: rgba(255,255,255,.9);
+}
+
+h2.ui.header{
+	 border-bottom: solid;
+}
+footer{
+	border-top: solid;
+	display: inline-block;
+	margin-top: 2em;
+	padding: 1em;
+}
+
