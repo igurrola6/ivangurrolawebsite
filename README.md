@@ -3,5 +3,6 @@ A website that is created using HTML, CSS, and JavaScript. This website also use
 
 Preview of website:
 --
-![website_preview](https://user-images.githubusercontent.com/71343788/123060221-63b5b880-d3bf-11eb-9d19-8393f563eb9e.PNG)
+![website_preview](https://user-images.githubusercontent.com/71343788/123168799-fb6ee180-d467-11eb-852d-139ef6222384.PNG)
+
 
